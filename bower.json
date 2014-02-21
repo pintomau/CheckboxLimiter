@@ -1,0 +1,20 @@
+{
+  "name": "CheckboxLimiter",
+  "main": "checkboxlimiter.js",
+  "version": "0.0.0",
+  "authors": [
+    "Mauro Pinto <battousai.pt@gmail.com>"
+  ],
+  "description": "Limits checkboxes count",
+  "keywords": [
+    "checkbox"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
