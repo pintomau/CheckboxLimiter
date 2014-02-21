@@ -3,7 +3,7 @@
   "main": "checkboxlimiter.js",
   "version": "0.0.0",
   "authors": [
-    "Mauro Pinto <battousai.pt@gmail.com>"
+    "Mauro Pinto <mauro.s.pinto@gmail.com>"
   ],
   "description": "Limits checkboxes count",
   "keywords": [

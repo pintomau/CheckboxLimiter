@@ -10,7 +10,7 @@
     "checkbox"
   ],
   "author": "Mauro Pinto <mauro.s.pinto@gmail.com>",
-  "license": "The Unlicense",
+  "license": "Unlicense",
   "devDependencies": {
     "jshint": "~2.4.3",
     "jslint": "~0.2.11",
