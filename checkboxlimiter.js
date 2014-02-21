@@ -43,7 +43,7 @@
       var $this = $(this)
       var data = $this.data('checkboxlimiter')
       var options = $.extend({}, CheckboxLimiter.DEFAULTS, $this.data(), typeof option == 'object' && option)
-      var action  = typeof option == 'string' ? option : options.slide // gives access to methods
+      var action  = typeof option == 'string' ? option : false // gives access to methods
 
       if (!data) $this.data('checkboxlimiter', (data = new CheckboxLimiter(this, options)))
       if (action) data[action]()
