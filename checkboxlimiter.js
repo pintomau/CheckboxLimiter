@@ -19,7 +19,6 @@
 
   CheckboxLimiter.prototype.updateItems = function() {
     var $items = this.$items;
-    console.log($items)
     $items.not(':checked')
       .attr('disabled', $items.filter(':checked').length >= this.options.limitcheckbox)
   }
