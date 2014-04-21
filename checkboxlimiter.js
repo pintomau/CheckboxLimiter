@@ -4,7 +4,7 @@
   var CheckboxLimiter = function (element, options) {
     this.$element = $(element)
     this.options  = $.extend({}, CheckboxLimiter.DEFAULTS, options)
-    this.$items    = this.$element.find('input[type=checkbox]')
+    this.$items    = this.options.items || this.$element.find('input[type=checkbox]')
     this.init()
   }
 
@@ -19,6 +19,7 @@
 
   CheckboxLimiter.prototype.updateItems = function() {
     var $items = this.$items;
+    console.log($items)
     $items.not(':checked')
       .attr('disabled', $items.filter(':checked').length >= this.options.limitcheckbox)
   }
