@@ -1,20 +1,24 @@
 {
   "name": "CheckboxLimiter",
-  "version": "0.0.0",
-  "description": "Limits number of checkboxes to be checked",
+  "version": "0.1.0",
+  "description": "Disables checkboxes after the set limit number of checked boxes has been reached.",
   "main": "checkboxlimiter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "checkbox"
+    "checkbox", "checkboxes"
   ],
   "author": "Mauro Pinto <mauro.s.pinto@gmail.com>",
   "license": "Unlicense",
   "devDependencies": {
-    "jshint": "~2.4.3",
-    "jslint": "~0.2.11",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt": "~0.4.2"
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.3.0",
+    "jshint-stylish": "^2.0.1",
+    "run-sequence": "^1.1.2"
   }
 }
