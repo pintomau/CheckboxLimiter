@@ -1,20 +1,21 @@
 {
   "name": "CheckboxLimiter",
   "main": "checkboxlimiter.js",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "authors": [
     "Mauro Pinto <mauro.s.pinto@gmail.com>"
   ],
-  "description": "Limits checkboxes count",
+  "description": "Disables checkboxes after the set limit number of checked boxes has been reached.",
   "keywords": [
-    "checkbox"
+    "checkbox",
+    "checkboxes"
   ],
-  "license": "Unlicense",
+  "license": "MIT",
   "ignore": [
-    "**/.*",
+    "/.*",
     "node_modules",
-    "bower_components",
     "test",
-    "tests"
+    "gulpfile.js",
+    "package.json"
   ]
 }

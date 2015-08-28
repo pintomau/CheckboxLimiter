@@ -1,6 +1,6 @@
 {
   "name": "CheckboxLimiter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Disables checkboxes after the set limit number of checked boxes has been reached.",
   "main": "checkboxlimiter.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "checkbox", "checkboxes"
   ],
   "author": "Mauro Pinto <mauro.s.pinto@gmail.com>",
-  "license": "Unlicense",
+  "license": "MIT",
   "devDependencies": {
     "del": "^1.2.1",
     "gulp": "^3.9.0",
